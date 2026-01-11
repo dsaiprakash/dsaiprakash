@@ -41,8 +41,8 @@ const downloadResumeBtn = document.getElementById("download-resume");
 
 downloadResumeBtn.addEventListener("click", function (e) {
   e.preventDefault();
-  const resumeFileName = "resume.pdf"; 
-  const resumeUrl = "./Assets/resume.pdf";
+  const resumeFileName = "resume_dendi_sai_prakash_reddy.pdf"; 
+  const resumeUrl = "./assets/resume_dendi_sai_prakash_reddy.pdf";
 
   const tempLink = document.createElement("a");
   tempLink.href = resumeUrl;
